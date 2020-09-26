@@ -1,0 +1,22 @@
+server:
+  port: 8082
+
+spring:
+  rabbitmq:
+    port: 5672
+    username: guest
+    password: guest
+    host: 192.168.118.129
+  mail:
+    host: smtp.qq.com
+    protocol: smtp
+    default-encoding: UTF-8
+    password: fquazplpqglnggca
+    username: 1476633160@qq.com
+    port: 587
+    properties:
+      mail:
+        debug: true
+        stmp:
+          socketFactory:
+            class: javax.net.ssl.SSLSocketFactory

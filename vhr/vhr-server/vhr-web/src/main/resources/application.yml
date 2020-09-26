@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    username: root
+    password: 123
+    url: jdbc:mysql://localhost:3306/vhr?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+  rabbitmq:
+    username: guest
+    password: guest
+    host: 192.168.118.129
+    port: 5672
+server:
+  port: 8081
+
+
